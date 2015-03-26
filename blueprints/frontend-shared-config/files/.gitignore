@@ -1,0 +1,20 @@
+# compiled output
+/dist
+/tmp
+/docs
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/*.log
+/.idea
+/.DS_Store
+/*.swp
+
+# deployment
+/.openshift

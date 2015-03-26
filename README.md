@@ -1,25 +1,46 @@
-# Dev-shared-config
+# Front End Shared Config
 
-This README outlines the details of collaborating on this Ember addon.
+Shared configuration across all Ticketfly Ember.js projects.
 
-## Installation
+Add addon to `ember-cli` project as a dependency:
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+``sh
+npm install frontend-shared-config --save-dev
+```
 
-## Running
+Run generator:
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+``sh
+ember g frontend-shared-config
+```
 
-## Running Tests
+Generator will do several things:
 
-* `ember test`
-* `ember test --server`
++ adds new dependencies
+  + `broccoli-jscs`
+  + `broccoli-sass`
+  + `git-repo-version`
+  + `ember-cli-yuidoc`
+  + `ember-cli-bugsnag`
+  + `ember-analytics`
++ adds `.jscsrc` file and `jscs` rules
++ adds `.travis.yml` file
++ adds `yuidoc.json` file
++ adds `testem.json` file
++ adds `.gitignore` file
 
-## Building
+### Bugsnag && NewRelic
 
-* `ember build`
+Once you run the generator, integrating with `Bugsnag` and `NewRelic` is easy.
+Just create `.bugsnag` and `.newrelic` files or add new object in your `config`:
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```javascript
+var ENV = {
+  bugsnag: {
+  },
+  newRelic: {
+  }
+};
+```
+
+More info: [ember-cli-bugsnag](https://github.com/twokul/ember-cli-bugsnag) and [ember-analytics](https://github.com/twokul/ember-analytics).

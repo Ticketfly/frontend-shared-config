@@ -1,0 +1,14 @@
+{
+  "name": "<%= name %>",
+  "description": "Documentation for <%= name %>",
+  "version": "0.0.1",
+  "options": {
+    "paths": [
+      "app"
+    ],
+    "exclude": "vendor",
+    "outdir": "docs",
+    "themedir": "node_modules/yuidoc-bootstrap-theme",
+    "helpers": ["node_modules/yuidoc-bootstrap-theme/helpers/helpers.js"]
+  }
+}

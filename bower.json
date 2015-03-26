@@ -1,5 +1,5 @@
 {
-  "name": "dev-shared-config",
+  "name": "frontend-shared-config",
   "dependencies": {
     "jquery": "^1.11.1",
     "ember": "1.10.0",
