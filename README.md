@@ -23,6 +23,7 @@ Generator will do several things:
   + `ember-cli-yuidoc`
   + `ember-cli-bugsnag`
   + `ember-analytics`
+  + `ember-cli-mirage`
 + adds `.jscsrc` file and `jscs` rules
 + adds `.travis.yml` file
 + adds `yuidoc.json` file
