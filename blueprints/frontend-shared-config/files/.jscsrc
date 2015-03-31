@@ -9,11 +9,14 @@
   "fileExtensions": [".js"],
   "esnext": true,
   "disallowEmptyBlocks": true,
+  "disallowMultipleSpaces": true,
   "disallowKeywordsOnNewLine": ["else"],
   "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
-  "disallowMultipleVarDecl": true,
+  "disallowMultipleVarDeclWithAssignment": true,
+  "disallowSpacesBeforeSemicolons": true,
+  "disallowSpacesInsideRoundBracesInCallExpression": true,
   "disallowOperatorBeforeLineBreak": ["."],
   "disallowPaddingNewlinesBeforeKeywords": [
     "do",
@@ -67,6 +70,10 @@
     "<",
     "<="
   ],
+  "requireSpacesAfterClosingParenthesisInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": false,
+    "beforeOpeningCurlyBrace": true
+  },
   "requirePaddingNewlinesBeforeKeywords": [
     "do",
     "for",
