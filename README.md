@@ -4,13 +4,13 @@ Shared configuration across all Ticketfly Ember.js projects.
 
 Add addon to `ember-cli` project as a dependency:
 
-``sh
+```sh
 npm install frontend-shared-config --save-dev
 ```
 
 Run generator:
 
-``sh
+```sh
 ember g frontend-shared-config
 ```
 
