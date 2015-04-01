@@ -11,5 +11,7 @@ module.exports = {
     this.addPackageToProject('ember-cli-bugsnag', '^0.0.7');
     this.addPackageToProject('ember-analytics', '^0.0.4');
     this.addPackageToProject('ember-cli-mirage', '0.0.23');
+    this.addPackageToProject('ember-cli-blanket', '0.4.0');
+    this.addBowerPackageToProject('blanket': '~1.1.5');
   }
 };

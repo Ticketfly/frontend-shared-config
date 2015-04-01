@@ -3,7 +3,8 @@
     "node_modules/**",
     "bower_components",
     "<%= dasherizedPackageName %>/initializers/export-application-global.js",
-    "<%= dasherizedPackageName %>/tests/helpers/start-app.js"
+    "<%= dasherizedPackageName %>/tests/helpers/start-app.js",
+    "blanket-options.js"
   ],
   "additionalRules": [ "lib/jscs-rules/*.js" ],
   "fileExtensions": [".js"],
