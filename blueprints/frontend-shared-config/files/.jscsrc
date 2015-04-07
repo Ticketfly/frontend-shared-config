@@ -47,7 +47,6 @@
     "with",
     "typeof"
   ],
-  "requirePaddingNewLinesBeforeLineComments": { "allExcept": "firstAfterCurly" },
   "requireSpaceAfterBinaryOperators": [
     "=",
     ",",
