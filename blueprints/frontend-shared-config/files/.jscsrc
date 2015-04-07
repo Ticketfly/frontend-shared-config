@@ -24,7 +24,6 @@
   "disallowKeywordsOnNewLine": ["else"],
   "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineBreaks": true,
-  "disallowMultipleSpaces": true,
   "disallowMultipleVarDecl": true,
   "disallowMultipleVarDeclWithAssignment": true,
   "disallowSpacesInsideRoundBracesInCallExpression": true,
