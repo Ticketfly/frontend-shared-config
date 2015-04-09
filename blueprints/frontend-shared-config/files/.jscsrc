@@ -118,17 +118,7 @@
   "disallowTrailingComma": true,
   "disallowTrailingWhitespace": true,
   "disallowPaddingNewlinesBeforeKeywords": [
-    "do",
-    "for",
-    "else",
-    "switch",
-    "case",
-    "try",
-    "catch",
-    "void",
-    "while",
-    "with",
-    "typeof"
+    "else"
    ],
   "requireOperatorBeforeLineBreak": [
     "?",
