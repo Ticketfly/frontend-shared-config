@@ -15,6 +15,3 @@
 /.idea
 /.DS_Store
 /*.swp
-
-# deployment
-/.openshift
