@@ -29,6 +29,8 @@ Generator will do several things:
 + adds `yuidoc.json` file
 + adds `testem.json` file
 + adds `.gitignore` file
++ adds `.openshift` folder with node server
++ adds `bin` folder with deployment script
 
 ### Bugsnag && NewRelic
 
@@ -56,4 +58,18 @@ Unfortunately, we need to run `nombom` every time upgrade of Ember CLI needs to 
 alias bom="rm -rf bower_components && bower cache clean && bower i"
 alias nom="rm -rf node_modules && npm cache clean && npm i"
 alias nombom="rm -rf bower_components node_modules && npm cache clean && bower cache clean && npm i && bower i"
+```
+
+## Deployment
+
+To run, you have to change the permissions:
+
+```sh
+chmod u+x ./bin/deploy.sh
+```
+
+To deploy:
+
+```sh
+./bin/deploy.sh <app name>
 ```
