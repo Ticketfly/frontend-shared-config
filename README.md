@@ -62,6 +62,11 @@ alias nombom="rm -rf bower_components node_modules && npm cache clean && bower c
 
 ## Deployment
 
+Make sure to install [`rhc`](https://rubygems.org/gems/rhc/versions/1.35.3) gem. This is the tool that is used
+for deployments.
+
+Also, make sure to read [this](https://help.openshift.com/hc/en-us/articles/202399230-Running-rhc-commands-without-re-entering-password0) to not to re-enter username/password all the time.
+
 To run, you have to change the permissions:
 
 ```sh
