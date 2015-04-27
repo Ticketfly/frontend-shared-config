@@ -1,6 +1,6 @@
 {
-  "name": "<%= name %>",
-  "description": "Documentation for <%= name %>",
+  "name": "<%= dasherizedPackageName %>",
+  "description": "Documentation for <%= dasherizedPackageName %>",
   "version": "0.0.1",
   "options": {
     "paths": [
